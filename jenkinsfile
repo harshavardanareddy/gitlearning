@@ -8,7 +8,7 @@ pipeline{
 				}
 				stage('Test'){
 						steps{
-							Input( 'u want to proceed testing the project...')
+							input( 'u want to proceed testing the project...')
 						}
 				}
 				stage('Deploy'){
